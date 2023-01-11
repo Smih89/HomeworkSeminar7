@@ -23,6 +23,11 @@ else
   {
     max = c;
   }
+  else
+  {
+    Console.WriteLine("max");
+    Console.WriteLine(max);
+  }
 }
 Console.WriteLine("max");
 Console.WriteLine(max);
