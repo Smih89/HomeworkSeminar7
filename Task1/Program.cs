@@ -6,8 +6,10 @@
 // a = 2, b =10 -> max = 10
 // a =-9, b =-3 -> max = -3
 
-int a = -9;
-int b = -3;
+Console.WriteLine("Введите число a");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число b");
+int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = b;
 if (b > max)
