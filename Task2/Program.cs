@@ -17,17 +17,9 @@ if (b > max)
 {
   max = b;
 }
-else 
+if (c > max)
 {
-  if (c > max)
-  {
-    max = c;
-  }
-  else
-  {
-    Console.WriteLine("max");
-    Console.WriteLine(max);
-  }
+  max = c;
 }
 Console.WriteLine("max");
 Console.WriteLine(max);
