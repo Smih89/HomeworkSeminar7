@@ -6,8 +6,8 @@
 // a = 2, b =10 -> max = 10
 // a =-9, b =-3 -> max = -3
 
-int a = 5;
-int b = 7;
+int a = -9;
+int b = -3;
 int max = a;
 int min = b;
 if (b > max)
@@ -15,9 +15,10 @@ if (b > max)
   max = b;
   min = a;
 }
-else
+else {
   max = a;
   min = b;
+}
 Console.WriteLine(max);
 Console.WriteLine("max");
 Console.WriteLine(min);
