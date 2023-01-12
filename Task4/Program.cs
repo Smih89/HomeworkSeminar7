@@ -13,6 +13,6 @@ while (index <= N)
   if (index % 2 == 0)
   {
     Console.WriteLine(index);
-    index = index + 1;
   }
+index = index + 1;
 }
