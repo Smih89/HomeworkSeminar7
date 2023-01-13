@@ -17,7 +17,8 @@ if (b > max)
   max = b;
   min = a;
 }
-else {
+else 
+{
   max = a;
   min = b;
 }
